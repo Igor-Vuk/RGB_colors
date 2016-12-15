@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<meta charset="UTF-8">
+
+		<title>Color Game</title>
+
+		<!-- Meta Description -->
+		<meta name="description" content="Color game">
+
+		<!-- Normalize.css -->
+		<link href="normalize.css" rel="stylesheet" type="text/css" media="screen">
+
+		<!-- Styles.css  -->
+		<link href="stylesheet.css" rel="stylesheet" type="text/css" media="screen">
+
+		<!-- Make HTML5 Work in IE 6,7,8 -->
+		<!--[if IE]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+			</script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+
+		<h1>The Great
+			<br>
+			<span id="colorDisplay">RGB</span>
+			<br>
+			Color Game</h1>
+
+		<div id="stripe">
+			<button id="reset">New Color</button>
+			<span id="messageDisplay"></span>
+			<button id="easyBtn">Easy</button>
+			<button id="hardBtn" class="selected">Hard</button>
+		</div>
+
+		<div id="container">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+
+		<script type = "text/javascript" src = "script.js"></script>
+	</body>
+
+</html>
